@@ -1,0 +1,106 @@
+body{
+    background-color: aliceblue;
+}
+.full-card{
+   width: 40rem;
+   height: 19rem;
+   margin: auto;
+   display: flex;
+   background-color: white;
+}
+.full-card img{
+    width: 20rem;
+    border-radius: 0rem 10rem 10rem 0rem;
+}
+.iner-card img{
+   width: 2rem;
+   border-radius: 17px;
+   margin-top: 6rem;
+   margin-left: 8rem;
+   position: relative;
+}
+.iner-card h1{
+    color: red;
+    position: relative;
+    margin-top: -6px;
+    margin-left: 3rem;
+}
+.iner-card p{
+    padding: 0%;
+    margin-top: -1.5rem;
+    margin-left: 6rem;
+}
+.full-card,.main-card2{
+    margin: 1rem;
+    margin-top: 0%;
+    margin-left: 19rem;
+}
+.main-card2{
+    width: 40rem;
+    height: 19rem;
+    margin: auto;
+    display: flex;
+    background-color: white;
+}
+.iner-card1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.iner-card1 img{
+    width: 2rem;
+    border-radius: 17px;
+    position: relative;
+    margin-top: 3rem;
+    margin-left: 24px;
+}
+.iner-card1 h1{
+   margin-top: -41px;
+   margin-left: 4rem;
+   font-weight: bold;
+   color: red;
+}
+.iner-card1 h2{
+    margin-top: -48px;
+    margin-left: 9rem;
+    font-weight: bold;
+    color: red;
+}
+.iner-card1 p{
+    margin-top: -21px;
+    margin-left: 4rem;
+}
+.iner-card2{
+    position: absolute;
+    margin-top: 11.5rem;
+}
+.iner-card2 h1{
+   margin-left: 1.6rem;
+   margin-top: -2.5rem;
+   color: red;
+}
+.iner-card2 p{
+    margin-top: -1.5rem;
+    margin-left: 1.6rem;
+}
+.iner-card2 ul{
+    margin-top: 1rem;
+}
+.last img{
+    width: 19rem;
+    margin-left: 7.5rem;
+    border-radius: 19rem 0rem 0rem 19rem;
+}
+.main-contaner:hover{
+    transform: rotateY(180deg); 
+    transition: transform 3s ease;
+}
+.full-card,.main-card2{
+    margin-top: 7rem;
+    position: absolute;
+    text-align: center;
+}
+.main-card2{
+  margin-left: 19rem;
+}
+
